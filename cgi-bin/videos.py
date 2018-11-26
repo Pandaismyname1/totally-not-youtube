@@ -1,3 +1,4 @@
+#!/bin/sh
 from search import searchOnYoutube
 from downloader import download, searchInCache
 
