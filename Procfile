@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi --log-file -
+web: bin/python -m CGIHTTPServer $PORT
