@@ -4,7 +4,7 @@ import socketserver
 import os
 import cgitb
 
-port = 8000
+port = 8080
 ip = '0.0.0.0'
 
 cgitb.enable()
