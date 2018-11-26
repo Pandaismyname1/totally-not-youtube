@@ -5,7 +5,7 @@ import os
 import cgitb
 
 port = 8080
-ip = '0.0.0.0'
+ip = '127.0.0.1'
 
 cgitb.enable()
 Handler = http.server.CGIHTTPRequestHandler
