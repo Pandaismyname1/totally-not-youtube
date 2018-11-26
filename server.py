@@ -5,7 +5,7 @@ import os
 import cgitb
 
 port = 8000
-ip = 'localhost'
+ip = '0.0.0.0'
 
 cgitb.enable()
 Handler = http.server.CGIHTTPRequestHandler
