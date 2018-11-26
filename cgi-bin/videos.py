@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env python
 from search import searchOnYoutube
 from downloader import download, searchInCache
 
