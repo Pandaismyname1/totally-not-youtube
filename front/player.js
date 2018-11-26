@@ -69,5 +69,5 @@ function searchVideo()
             "in the end"
         ],
     }
-    post(query,'../cgi-bin/videos.py',afterDownload)
+    post(query,'../cgi-bin/test.py',afterDownload)
 }
