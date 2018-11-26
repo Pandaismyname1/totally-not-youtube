@@ -35,7 +35,8 @@ if 'json' not in arguments.keys():
     returnErrorMessage("No JSON found.")
 else:
     jsonObj = json.loads(arguments['json'].value.encode('utf-8'))
-
+print(jsonObj)
+exit(0)
 if(jsonObj['command']=='download'):
     downloadVideo(jsonObj['arguments'][0])
     
