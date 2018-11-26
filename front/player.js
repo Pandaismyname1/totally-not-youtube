@@ -66,7 +66,7 @@ function searchVideo()
         "command": "download",
         "arguments":
         [
-            "skibidi"
+            "in the end"
         ],
     }
     post(query,'../cgi-bin/videos.py',afterDownload)

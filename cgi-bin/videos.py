@@ -29,11 +29,7 @@ def downloadVideo(query):
         download(videoId)
         print('Downloaded '+videoId)
 arguments = cgi.FieldStorage()
-print(arguments)
-print("test")
 jsonObj = {}
-print(arguments['json'])
-exit(0)
 if 'json' not in arguments.keys():
     returnErrorMessage("No JSON found.")
 else:
