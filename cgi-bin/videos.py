@@ -30,6 +30,7 @@ def downloadVideo(query):
         print('Downloaded '+videoId)
 arguments = cgi.FieldStorage()
 print(arguments)
+print("test")
 jsonObj = {}
 print(arguments['json'])
 exit(0)
